@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2B5C2B332A0A96DE00C98A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C2B322A0A96DE00C98A9E /* AppDelegate.swift */; };
 		2B5C2B352A0A96DE00C98A9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C2B342A0A96DE00C98A9E /* SceneDelegate.swift */; };
 		2B5C2B372A0A96DE00C98A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C2B362A0A96DE00C98A9E /* ViewController.swift */; };
-		2B5C2B3A2A0A96DE00C98A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C2B382A0A96DE00C98A9E /* Main.storyboard */; };
 		2B5C2B3C2A0A96E300C98A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C2B3B2A0A96E300C98A9E /* Assets.xcassets */; };
 		2B5C2B3F2A0A96E300C98A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C2B3D2A0A96E300C98A9E /* LaunchScreen.storyboard */; };
+		2B711ED62A0ACBC1001BD4DB /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B711ED52A0ACBC1001BD4DB /* ExerciseListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		2B5C2B322A0A96DE00C98A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B5C2B342A0A96DE00C98A9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2B5C2B362A0A96DE00C98A9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B5C2B392A0A96DE00C98A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B5C2B3B2A0A96E300C98A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5C2B3E2A0A96E300C98A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5C2B402A0A96E300C98A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B711ED52A0ACBC1001BD4DB /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				2B5C2B322A0A96DE00C98A9E /* AppDelegate.swift */,
 				2B5C2B342A0A96DE00C98A9E /* SceneDelegate.swift */,
 				2B5C2B362A0A96DE00C98A9E /* ViewController.swift */,
-				2B5C2B382A0A96DE00C98A9E /* Main.storyboard */,
+				2B711ED52A0ACBC1001BD4DB /* ExerciseListViewController.swift */,
 				2B5C2B3B2A0A96E300C98A9E /* Assets.xcassets */,
 				2B5C2B3D2A0A96E300C98A9E /* LaunchScreen.storyboard */,
 				2B5C2B402A0A96E300C98A9E /* Info.plist */,
@@ -102,7 +102,7 @@
 				};
 			};
 			buildConfigurationList = 2B5C2B2A2A0A96DE00C98A9E /* Build configuration list for PBXProject "FitnessApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,7 +126,6 @@
 			files = (
 				2B5C2B3F2A0A96E300C98A9E /* LaunchScreen.storyboard in Resources */,
 				2B5C2B3C2A0A96E300C98A9E /* Assets.xcassets in Resources */,
-				2B5C2B3A2A0A96DE00C98A9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B711ED62A0ACBC1001BD4DB /* ExerciseListViewController.swift in Sources */,
 				2B5C2B372A0A96DE00C98A9E /* ViewController.swift in Sources */,
 				2B5C2B332A0A96DE00C98A9E /* AppDelegate.swift in Sources */,
 				2B5C2B352A0A96DE00C98A9E /* SceneDelegate.swift in Sources */,
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2B5C2B382A0A96DE00C98A9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B5C2B392A0A96DE00C98A9E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B5C2B3D2A0A96E300C98A9E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83M7X54F25;
 				INFOPLIST_FILE = FitnessApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83M7X54F25;
 				INFOPLIST_FILE = FitnessApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
